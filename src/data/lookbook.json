@@ -1,0 +1,176 @@
+[
+  {
+    "slug": "city-summer-uniform",
+    "title": "City Summer Uniform",
+    "kicker": "Editorial 01",
+    "description": "Oversized tees, clean sneakers and color-first styling for hot concrete days.",
+    "image": "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?q=80&w=1600&auto=format&fit=crop",
+    "products": [
+      "sunset-race-tee",
+      "cobalt-court-sneaker",
+      "canvas-mini-tote"
+    ],
+    "palette": [
+      "Coral heat",
+      "Cobalt sole",
+      "Canvas cream"
+    ],
+    "mood": "Heatwave graphics, court energy and soft utility accessories.",
+    "chapters": [
+      {
+        "eyebrow": "01 / Base layer",
+        "title": "Start with volume.",
+        "body": "The tee stays oversized and graphic so the outfit reads intentional from across the street.",
+        "image": "https://images.unsplash.com/photo-1529139574466-a303027c1d8b?q=80&w=1400&auto=format&fit=crop"
+      },
+      {
+        "eyebrow": "02 / Footwork",
+        "title": "Keep the sneaker clean but loud.",
+        "body": "A cobalt court shoe keeps the palette playful without turning the full outfit into costume.",
+        "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1400&auto=format&fit=crop"
+      },
+      {
+        "eyebrow": "03 / Carry",
+        "title": "Add utility without weight.",
+        "body": "A compact canvas tote finishes the fit and keeps the whole look city-ready.",
+        "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?q=80&w=1400&auto=format&fit=crop"
+      }
+    ],
+    "hotspots": [
+      {
+        "slug": "sunset-race-tee",
+        "x": 26,
+        "y": 42,
+        "label": "Graphic base"
+      },
+      {
+        "slug": "cobalt-court-sneaker",
+        "x": 61,
+        "y": 76,
+        "label": "Court sneaker"
+      },
+      {
+        "slug": "canvas-mini-tote",
+        "x": 78,
+        "y": 38,
+        "label": "Canvas carry"
+      }
+    ]
+  },
+  {
+    "slug": "night-market-fit",
+    "title": "Night Market Fit",
+    "kicker": "Editorial 02",
+    "description": "Black graphics, redline sneakers and a hoodie layer for after-dark movement.",
+    "image": "https://images.unsplash.com/photo-1506629905607-d9d297d9b150?q=80&w=1600&auto=format&fit=crop",
+    "products": [
+      "backstage-black-tee",
+      "redline-skate-sneaker",
+      "studio-zip-hoodie"
+    ],
+    "palette": [
+      "Backstage black",
+      "Redline outsole",
+      "Studio grey"
+    ],
+    "mood": "Low light, reflective hits and pieces that move from dinner to late train rides.",
+    "chapters": [
+      {
+        "eyebrow": "01 / Night graphic",
+        "title": "Anchor the outfit in black.",
+        "body": "A heavy graphic tee gives the look a strong base before the redline sneaker appears.",
+        "image": "https://images.unsplash.com/photo-1523398002811-999ca8dec234?q=80&w=1400&auto=format&fit=crop"
+      },
+      {
+        "eyebrow": "02 / Layer",
+        "title": "Zip hoodie, not bulk.",
+        "body": "The hoodie works as a moving layer: open when warm, zipped when the night turns cold.",
+        "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1400&auto=format&fit=crop"
+      },
+      {
+        "eyebrow": "03 / Grounding",
+        "title": "Let the shoe carry the hit.",
+        "body": "A redline skate sneaker adds speed and contrast without fighting the darker base.",
+        "image": "https://images.unsplash.com/photo-1600185365483-26d7a4cc7519?q=80&w=1400&auto=format&fit=crop"
+      }
+    ],
+    "hotspots": [
+      {
+        "slug": "backstage-black-tee",
+        "x": 38,
+        "y": 38,
+        "label": "Black tee"
+      },
+      {
+        "slug": "studio-zip-hoodie",
+        "x": 54,
+        "y": 31,
+        "label": "Zip layer"
+      },
+      {
+        "slug": "redline-skate-sneaker",
+        "x": 66,
+        "y": 78,
+        "label": "Redline shoe"
+      }
+    ]
+  },
+  {
+    "slug": "gallery-runner",
+    "title": "Gallery Runner",
+    "kicker": "Editorial 03",
+    "description": "Cream runners and art tees styled like a moving exhibition.",
+    "image": "https://images.unsplash.com/photo-1509631179647-0177331693ae?q=80&w=1600&auto=format&fit=crop",
+    "products": [
+      "paint-splash-tee",
+      "cream-runner-01",
+      "espresso-atelier-tee"
+    ],
+    "palette": [
+      "Gallery cream",
+      "Paint splash",
+      "Espresso ink"
+    ],
+    "mood": "Art-school polish, clean runners and painterly graphics for quiet confidence.",
+    "chapters": [
+      {
+        "eyebrow": "01 / Art signal",
+        "title": "Make the graphic feel curated.",
+        "body": "Painterly color turns the tee into a gallery object instead of a generic print.",
+        "image": "https://images.unsplash.com/photo-1503341455253-b2e723bb3dbb?q=80&w=1400&auto=format&fit=crop"
+      },
+      {
+        "eyebrow": "02 / Neutral speed",
+        "title": "A cream runner keeps it light.",
+        "body": "The shoe creates movement without stealing focus from the artwork on the tee.",
+        "image": "https://images.unsplash.com/photo-1595950653106-6c9ebd614d3a?q=80&w=1400&auto=format&fit=crop"
+      },
+      {
+        "eyebrow": "03 / Tone down",
+        "title": "Espresso pulls it together.",
+        "body": "A darker atelier tee can be layered into the fit when the palette needs more depth.",
+        "image": "https://images.unsplash.com/photo-1516762689617-e1cffcef479d?q=80&w=1400&auto=format&fit=crop"
+      }
+    ],
+    "hotspots": [
+      {
+        "slug": "paint-splash-tee",
+        "x": 32,
+        "y": 39,
+        "label": "Art tee"
+      },
+      {
+        "slug": "cream-runner-01",
+        "x": 68,
+        "y": 75,
+        "label": "Cream runner"
+      },
+      {
+        "slug": "espresso-atelier-tee",
+        "x": 76,
+        "y": 46,
+        "label": "Espresso layer"
+      }
+    ]
+  }
+]

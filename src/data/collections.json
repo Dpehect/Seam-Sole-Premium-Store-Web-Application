@@ -1,0 +1,58 @@
+[
+  {
+    "slug": "color-rush-drop",
+    "name": "Color Rush Drop",
+    "tagline": "Saturated tees and loud runners for expressive everyday styling.",
+    "accent": "#FF4E5B",
+    "release": "July 8"
+  },
+  {
+    "slug": "court-energy",
+    "name": "Court Energy",
+    "tagline": "Retro sneaker language with boutique polish and clean color blocking.",
+    "accent": "#275DFF",
+    "release": "July 12"
+  },
+  {
+    "slug": "studio-basics",
+    "name": "Studio Basics",
+    "tagline": "Quiet premium pieces that hold every outfit together.",
+    "accent": "#4A2E22",
+    "release": "Always on"
+  },
+  {
+    "slug": "soft-velocity",
+    "name": "Soft Velocity",
+    "tagline": "Runners, neutrals and comfort-led movement for city days.",
+    "accent": "#C9FF3C",
+    "release": "June 18"
+  },
+  {
+    "slug": "night-market",
+    "name": "Night Market",
+    "tagline": "After-dark graphics, reflective hits and black-heavy styling.",
+    "accent": "#12100E",
+    "release": "July 20"
+  },
+  {
+    "slug": "concrete-playground",
+    "name": "Concrete Playground",
+    "tagline": "Skate, canvas and utility layers designed for daily movement.",
+    "accent": "#C76B3D",
+    "release": "June 14"
+  },
+  {
+    "slug": "artist-uniform",
+    "name": "Artist Uniform",
+    "tagline": "Gallery graphics and painterly tees with studio energy.",
+    "accent": "#FBF0D4",
+    "release": "July 22"
+  },
+  {
+    "slug": "daily-objects",
+    "name": "Daily Objects",
+    "tagline": "Caps, socks, bags and add-ons that complete the fit.",
+    "accent": "#8DDBE0",
+    "release": "Ongoing"
+  }
+]

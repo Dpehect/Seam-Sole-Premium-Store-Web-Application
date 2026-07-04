@@ -1,0 +1,145 @@
+@import 'swiper/css';
+@import 'swiper/css/effect-creative';
+@import 'swiper/css/pagination';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: 42 100% 95%;
+  --foreground: 28 12% 6%;
+  --font-display: var(--font-space-grotesk);
+  --font-body: var(--font-inter);
+}
+
+* { box-sizing: border-box; }
+html { scroll-behavior: auto; }
+body {
+  margin: 0;
+  color: #12100E;
+  background:
+    radial-gradient(circle at 20% 0%, rgba(255, 78, 91, .2), transparent 32%),
+    radial-gradient(circle at 85% 12%, rgba(201, 255, 60, .25), transparent 30%),
+    linear-gradient(180deg, #FFF7E8 0%, #FBF0D4 48%, #FFF7E8 100%);
+  font-family: var(--font-body), system-ui, sans-serif;
+  overflow-x: hidden;
+}
+
+a { color: inherit; text-decoration: none; }
+button, input, select, textarea { font: inherit; }
+::selection { background: #C9FF3C; color: #12100E; }
+
+.noise::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  z-index: 60;
+  pointer-events: none;
+  opacity: .08;
+  mix-blend-mode: multiply;
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 256 256' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.88' numOctaves='3' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+}
+
+.grid-bg {
+  background-image:
+    linear-gradient(rgba(18,16,14,.08) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(18,16,14,.08) 1px, transparent 1px);
+  background-size: 34px 34px;
+}
+
+.text-balance { text-wrap: balance; }
+.perspective-1000 { perspective: 1000px; }
+
+.image-wave {
+  position: relative;
+  overflow: hidden;
+  isolation: isolate;
+}
+.image-wave::after {
+  content: '';
+  position: absolute;
+  inset: -40%;
+  z-index: 1;
+  background: radial-gradient(circle at var(--x, 50%) var(--y, 50%), rgba(255,255,255,.38), transparent 17%),
+    conic-gradient(from 180deg at var(--x, 50%) var(--y, 50%), transparent, rgba(201,255,60,.22), transparent, rgba(39,93,255,.18), transparent);
+  opacity: 0;
+  transform: scale(.7) rotate(0deg);
+  transition: opacity .35s ease, transform .7s ease;
+  mix-blend-mode: screen;
+  pointer-events: none;
+}
+.image-wave:hover::after {
+  opacity: 1;
+  transform: scale(1.05) rotate(12deg);
+}
+.image-wave img { transition: transform .85s cubic-bezier(.2,.8,.2,1), filter .85s ease; }
+.image-wave:hover img { transform: scale(1.08) rotate(.8deg); filter: saturate(1.12) contrast(1.04); }
+
+.liquid-border {
+  position: relative;
+  overflow: hidden;
+}
+.liquid-border::before {
+  content: '';
+  position: absolute;
+  inset: 0;
+  border-radius: inherit;
+  border: 1px solid rgba(18,16,14,.16);
+  pointer-events: none;
+}
+.liquid-border::after {
+  content: '';
+  position: absolute;
+  inset: -70% -25%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,.45), transparent);
+  transform: translateX(-120%) skewX(-12deg);
+  pointer-events: none;
+}
+.liquid-border:hover::after { animation: shine 1.1s ease; }
+
+.clip-ticket { clip-path: polygon(0 0, 100% 0, 100% 78%, 92% 100%, 0 100%); }
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: .01ms !important;
+  }
+}
+
+
+.editorial-swiper .swiper-pagination-bullet {
+  width: 10px;
+  height: 10px;
+  background: rgba(255, 247, 232, .8);
+  opacity: .45;
+}
+.editorial-swiper .swiper-pagination-bullet-active {
+  width: 34px;
+  border-radius: 999px;
+  background: #C9FF3C;
+  opacity: 1;
+}
+.hotspot-pulse {
+  position: relative;
+}
+.hotspot-pulse::before,
+.hotspot-pulse::after {
+  content: '';
+  position: absolute;
+  inset: -8px;
+  border-radius: 999px;
+  border: 1px solid rgba(201, 255, 60, .72);
+  animation: pulse-ring 1.8s ease-out infinite;
+}
+.hotspot-pulse::after { animation-delay: .72s; }
+@keyframes pulse-ring {
+  0% { opacity: .85; transform: scale(.55); }
+  100% { opacity: 0; transform: scale(1.85); }
+}
+.editorial-mask {
+  mask-image: linear-gradient(90deg, transparent, black 8%, black 92%, transparent);
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "id": "tees",
+    "name": "Graphic Tees",
+    "description": "Heavyweight cotton, oversized fits, blanks and high-impact prints.",
+    "image": "https://images.unsplash.com/photo-1523398002811-999ca8dec234?q=80&w=1200&auto=format&fit=crop",
+    "heroCopy": "Boxy essentials, back prints and saturated drop colors."
+  },
+  {
+    "id": "sneakers",
+    "name": "Sneakers",
+    "description": "Court, runner, skate and trail silhouettes built for daily rotation.",
+    "image": "https://images.unsplash.com/photo-1542291026-7eec264c27ff?q=80&w=1200&auto=format&fit=crop",
+    "heroCopy": "Low tops, runners, high tops and technical soles."
+  },
+  {
+    "id": "hoodies",
+    "name": "Layers",
+    "description": "Premium hoodies and overshirts for full outfit building.",
+    "image": "https://images.unsplash.com/photo-1556821840-3a63f95609a7?q=80&w=1200&auto=format&fit=crop",
+    "heroCopy": "Heavy fleece, utility overshirts and color-focused layers."
+  },
+  {
+    "id": "accessories",
+    "name": "Accessories",
+    "description": "Caps, bags, socks and custom kits that finish the look.",
+    "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?q=80&w=1200&auto=format&fit=crop",
+    "heroCopy": "Small objects with strong styling impact."
+  }
+]
