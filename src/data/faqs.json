@@ -1,0 +1,5 @@
+[
+  { "question": "Do you ship internationally?", "answer": "Yes. The checkout flow includes shipping method selection and order summary details." },
+  { "question": "How do sneaker sizes fit?", "answer": "Every sneaker includes a fit note. Most styles are true to size; runners may recommend going half a size up." },
+  { "question": "Can I edit products without code?", "answer": "Yes. The admin panel lets you update products, categories, collections and editorial content for the project." }
+]
