@@ -1,5 +1,6 @@
 # Seam & Sole Storefront
 Live link : https://seam-sole-premium-store-web-applica.vercel.app/
+
 This is a premium e-commerce storefront I built to showcase modern React patterns, interactive 3D elements, and clean, production-ready user experiences. The goal was to create a highly polished fashion boutique that runs fast, looks premium, and prioritizes smooth visual details like micro-interactions and transitions.
 
 ## Key Features & Highlights
